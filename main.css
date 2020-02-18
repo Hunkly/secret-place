@@ -1060,7 +1060,7 @@ input::-moz-placeholder {
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 760px){
 
     .banner h1 {
         font-size: 40px;
@@ -1300,6 +1300,13 @@ input::-moz-placeholder {
 
     .rightside-item h4 {
         font-size: 20px;
+        text-align: left;
+
     }
 
+    .rightside-item h5, .rightside-item p {
+        text-align: left;
+    }
+
+    
 }
