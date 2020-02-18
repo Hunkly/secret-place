@@ -739,16 +739,20 @@ input::-moz-placeholder {
 }
 
 @media (max-width: 1090px) {
+    .wrapper {
+        max-width: 890px
+    }
+
     .title {
         font-size: 25px;
     }
 
     .banner {
-        height: 60vh;
+        height: 65vh;
     }
 
     .outer {
-        height: 60vh;
+        height: 65vh;
     }
 
     .leftside-container img {
@@ -773,4 +777,529 @@ input::-moz-placeholder {
         right: 75px;
         top: 330px;
     }
+
+    .second-section {
+        height: 800px;
+    }
+
+    .second-section .container {
+        display: grid;
+        grid-template: 50% 50% / 1fr 260px 260px 260px 1fr;
+
+    }
+
+    .second-section #ability-first {
+        grid-column: 2 / 3;
+        grid-row: 1
+    }
+
+    .second-section #ability-second {
+        grid-column: 4 / 5;
+        grid-row: 1;
+    }
+
+    .second-section #ability-third {
+        grid-column: 3/4;
+        grid-row: 2;
+    }
+
+    .info-text {
+        font-size: 16px;
+    }
+
+    .rights {
+        max-width: 390px;
+    }
+
+    .locate-info-box p{
+        font-size: 16px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 890px) {
+    .wrapper{
+        max-width: 690px;
+    }
+
+    .third-section-second-part img {
+        display: none;
+    }
+
+    .third-section-second-part {
+        padding-top: 130px;
+        height: 450px;
+    }
+
+    .rights {
+        position: initial;
+        margin: 0 auto;
+        margin-top: 80px;
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .subscription-box {
+        width: 270px;
+        height: 170px;
+        padding: 45px 30px 25px 30px;
+    }
+
+    .subscription-box .btn {
+        width: 265px;
+    }
+
+    .subscription-box h2 {
+        font-size: 25px;
+    }
+
+    .fifth-section img {
+        height: 600px;
+    }
+
+
+    .btn {
+        height: 40px;
+        margin-top: 45px;
+    }
+
+    .title::after {
+        position: absolute;
+        right: 245px;
+    }
+
+    .name-container::before {
+        position: absolute;
+        left: 75px;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner h2 {
+        font-size: 21px;
+    }
+
+    .banner h4 {
+        font-size: 15px;
+    }
+
+    .leftside-container img {
+        margin: 0 auto 287px auto;
+        width: 658px;
+        height: 398px;
+    }
+
+    .rightside-container img {
+        margin: 0 auto 287px 0;
+        width: 658px;
+        height: 398px;
+    }
+
+   .small-title {
+       font-size: 17px;
+   }
+
+   .small-title::after{
+       margin-top: 13px;
+   }
+
+   .leftside-container .reason-box {
+       height: 100px;
+       width: 600px;
+       padding-right: 0;
+   }
+
+   .rightside-container .reason-box {
+        height: 100px;
+        width: 600px;
+        position: absolute;
+        right: 60px;
+    }
+
+   .reason-box p {
+       font-size: 15px;
+       margin-top: 27px;
+   }
+
+   .second-section {
+        height: 1000px;
+    }
+
+   .second-section .container {
+        display: grid;
+        grid-template: 1fr 50px 1fr / 1fr 1fr 1fr;
+    }
+
+    .second-section #ability-first {
+        grid-column: 1 / 2;
+        grid-row: 1
+    }
+
+    .second-section #ability-second {
+        grid-column: 3 / 4;
+        grid-row: 1;
+    }
+
+    .second-section #ability-third {
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+
+    .fourth-section .container {
+        display: grid;
+        grid-template: 1fr 50px 1fr / 1fr 1fr 1fr;
+    }
+
+    .fourth-section #price-first {
+        grid-column: 1 / 2;
+        grid-row: 1
+    }
+
+    .fourth-section #price-second {
+        grid-column: 3 / 4;
+        grid-row: 1;
+    }
+
+    .fourth-section #price-third {
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+
+    .price-box {
+        height: 150px;
+        width: 100%;
+    }
+
+    .price-box h2 {
+        font-size: 14px;
+    }
+
+    .price-box h1 {
+        font-size: 40px;
+    }
+
+    .rules {
+        width: 700px;
+    }
+
+    .rule-item p {
+        font-size: 17px;
+    }
+
+    .rule-item img {
+        height: 95px;
+    }
+
+    .forbidden img {
+        height: 220px;
+        width: 220px;
+    }
+
+    .forbidden-text {
+        max-width: 400px;
+    }
+
+    .forbidden h2 {
+        font-size: 25px;
+    }
+
+    .forbidden h4 {
+        font-size: 18px;
+    }
+
+    .eight-section .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .locate-info-box {
+        margin-bottom: 75px;
+    }
+
+    .locate-info-box .title::after {
+        position: absolute;
+        left: 165px;
+    }
+
+    .locate-info-box .title {
+        text-align: center;
+    }
+
+    .locate-info-box p {
+        font-size: 16px;
+        max-width: 530px;
+        text-align: center;
+    }
+
+    #map {
+        height: 270px;
+        width: 100%
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .fifth-section {
+        height: 649px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .wrapper {
+        max-width: 658px;
+    }
+
+    .rules {
+        max-width: 678px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner {
+        height: 75vh;
+    }
+
+    .banner .btn {
+        width: 290px;
+    }
+
+    .outer {
+        height: 75vh;
+    }
+
+    .outer .wrapper {
+        text-align: center;
+    }
+
+    .header .container a{
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper {
+        max-width: 290px;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .title::after {
+        position: absolute;
+        right: 45px;
+    }
+
+    .leftside-container img {
+        margin: 0 auto 0 auto;
+        width: 291px;
+        height: 191px;
+    }
+
+    .rightside-container img {
+        margin: 0 auto 0 auto;
+        width: 291px;
+        height: 191px;
+    }
+
+    .leftside-container .reason-box {
+        height: 100px;
+        width: 259px;
+        padding-right: 0;
+        position: initial;
+        padding-right: 16px;
+        margin-bottom: 20px;
+    }
+
+    .rightside-container .reason-box {
+        height: 100px;
+        width: 259px;
+        padding-left: 0;
+        position: initial;
+        padding-left: 16px;
+        margin-bottom: 20px;
+    }
+
+    .rightside-container .small-title::after {
+        position: absolute;
+        left: 118px;
+    }
+
+    .small-title::after {
+        margin-top: 13px;
+        position: absolute;
+        left: 0
+    }
+
+    .small-title {
+        font-size: 15px;
+    }
+
+    .reason-box p {
+        font-size: 12px;
+        margin-top: 27px;
+    }
+
+    .second-section .container {
+        display: grid;
+        grid-template-rows: 400px 400px 400px;
+        grid-template-columns: 300px;
+    }
+
+    .second-section #ability-first {
+        grid-column: 1;
+        grid-row: 1
+    }
+
+    .second-section #ability-second {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .second-section #ability-third {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .second-section {
+        height: 1330px;
+    }
+
+    .third-section-first-part img {
+        width: 290px;
+        height: 390px;
+    }
+
+    .contact-container img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .contact-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-box {
+        width: 100%;
+        height: 250px;
+    }
+
+    .name-container {
+        margin-top: 20px;
+    }
+
+    .fourth-section .container {
+        display: grid;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-columns: 300px;
+    }
+
+    .fourth-section #price-first {
+        grid-column: 1;
+        grid-row: 1
+    }
+
+    .fourth-section #price-second {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .fourth-section #price-third {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .price-box {
+        height: 150px;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .fifth-section {
+        height: 1000px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rules {
+        max-width: 290px;
+    }
+
+    .rule-item {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-bottom: 75px;
+    }
+
+    .rule-item p {
+        max-width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .rule-item img {
+        margin: 0 auto;
+    }
+
+    .forbidden img {
+        display: none;
+    }
+
+    .locate-info-box {
+        width: 290px;
+    }
+
+    .locate-info-box p {
+        font-size: 16px;
+        max-width: 290px;
+        text-align: center;   
+    }
+
+    .locate-info-box .title::after {
+        position: absolute;
+        left: 50px;
+    }
+
+    .contact-form {
+        width: 330px;
+    }
+
+    .nine-section input {
+        width: 250px;
+    }
+
+    .contact-form .btn {
+        width: 250px;
+        height: 50px;
+    }
+
+    .third-section-second-part {
+        padding-top: 40px;
+        padding-bottom: 100px;
+        height: 450px;
+    }
+
+    .leftside-item h2 {
+        font-size: 20px;
+    }
+
+    .rightside-item h4 {
+        font-size: 20px;
+    }
+
 }
